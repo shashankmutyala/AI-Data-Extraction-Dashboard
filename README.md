@@ -87,7 +87,7 @@ This will open the dashboard in your default web browser.
 ## Setup & Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ai-dashboard.git
+git clone https://github.com/shashankmutyala/AI-Data-Extraction-Dashboard
 
 # Install dependencies
 npm install
@@ -209,7 +209,7 @@ print(SERPAPI_KEY, GOOGLE_CREDS_PATH, GROQ_API_KEY)
 
 ```bash
 # Clone repo
-git clone https://github.com/shashankmutyala/ai-data-extraction-dashboard.git
+git clone https://github.com/shashankmutyala/AI-Data-Extraction-Dashboard
 
 # Install dependencies
 pip install -r requirements.txt
