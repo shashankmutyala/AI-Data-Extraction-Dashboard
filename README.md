@@ -3,7 +3,7 @@
 # AI Data Extraction Dashboard
 
 <p align="center">
-  <img src="https://www.gooddata.com/img/blog/_1200x630/what-is-ai-analytics_cover.png.webp" alt="AI Data Extraction Dashboard Banner"/>
+  <img src=""/>
 </p>
 
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io/)
@@ -208,7 +208,7 @@ print(SERPAPI_KEY, GOOGLE_CREDS_PATH, GROQ_API_KEY)
 
 ```bash
 # Clone repo
-git clone https://github.com/yourusername/ai-data-extraction-dashboard.git
+git clone https://github.com/shashankmutyala/ai-data-extraction-dashboard.git
 
 # Install dependencies
 pip install -r requirements.txt
@@ -220,7 +220,7 @@ streamlit run app.py
 
 Watch the demo video on Loom:
 
-[Watch the Loom Video](https://www.loom.com/share/your-loom-video-link)
+[Watch the Loom Video](https://www.loom.com/share/d503652089364b00882a870e97b6264a?sid=143ac111-2cd3-431f-831f-b1a65489c18a)
 
 ## License
 -Mutyala Shashank
