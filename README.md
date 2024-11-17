@@ -11,6 +11,8 @@
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white)](https://www.google.com/sheets/about/)
 [![OpenAI](https://img.shields.io/badge/Groq-412991?style=for-the-badge&logo=openai&logoColor=white)](https://groq.com/)
+[![SerpAPI](https://img.shields.io/badge/SerpAPI-0A83F0?style=for-the-badge&logo=google&logoColor=white)](https://serpapi.com/)
+
 
 Automated data extraction powered by AI - From spreadsheets to intelligent insights in seconds.
 
