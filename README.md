@@ -15,7 +15,7 @@
 [![SerpAPI](https://img.shields.io/badge/SerpAPI-0A83F0?style=for-the-badge&logo=google&logoColor=white)](https://serpapi.com/)
 
 
-Automated data extraction powered by AI - From spreadsheets to intelligent insights in seconds.
+Automated data extraction powered by AI - From CSV File or spreadsheets to intelligent insights in seconds.
 
 </div>
 
