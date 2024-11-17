@@ -37,12 +37,12 @@ Automated data extraction powered by AI - From spreadsheets to intelligent insig
 
 ## 📜 Project Description
 
-The *AI Data Extraction Dashboard* is a cutting-edge tool designed to automate data extraction and analysis. It enables users to efficiently process data from multiple sources, including CSV files and Google Sheets, while integrating web scraping and AI-powered insights. This dashboard leverages advanced technologies to transform raw data into actionable intelligence in seconds, offering:
+The **AI Data Extraction Dashboard** is a cutting-edge tool designed to automate data extraction and analysis. It enables users to efficiently process data from multiple sources, including CSV files and Google Sheets, while integrating web scraping and AI-powered insights. This dashboard leverages advanced technologies to transform raw data into actionable intelligence in seconds, offering:
 
-- *Multi-Source Input*: Seamless integration with local files and cloud-based spreadsheets.
-- *AI-Powered Search*: Automates web data retrieval using APIs like SerpAPI.
-- *Smart Processing*: Leverages Groq's AI models to extract meaningful insights from complex data.
-- *Export-Ready Output*: Easily download results or sync them with external platforms.
+- **Multi-Source Input**: Seamless integration with local files and cloud-based spreadsheets.
+- **AI-Powered Search**: Automates web data retrieval using APIs like SerpAPI.
+- **Smart Processing**: Leverages Groq's AI models to extract meaningful insights from complex data.
+- **Export-Ready Output**: Easily download results or sync them with external platforms.
 
 With a user-friendly interface built on Streamlit, this project empowers data analysts, researchers, and businesses to make informed decisions effortlessly.
 
@@ -50,10 +50,10 @@ With a user-friendly interface built on Streamlit, this project empowers data an
 ## 🛠️ Setup Instructions
 
 ### Step 1: Load Data
-- *From CSV:* Upload your CSV file directly through the dashboard interface.
-- *From Google Sheets:*
+- **From CSV:** Upload your CSV file directly through the dashboard interface.
+- **From Google Sheets:**
   1. Enter the URL of the Google Sheets document.
-  2. Ensure your [Google API credentials](https://developers.google.com/sheets/api/quickstart) (credentials.json) are properly set up.
+  2. Ensure your [Google API credentials](https://developers.google.com/sheets/api/quickstart) (`credentials.json`) are properly set up.
 
 ### Step 2: Perform Search Queries
 - Use the dashboard to input search terms.
@@ -70,25 +70,25 @@ With a user-friendly interface built on Streamlit, this project empowers data an
 ---
 ## 📋 Usage Guide
 
-The *AI Data Extraction Dashboard* is designed to be user-friendly and intuitive. Below are the step-by-step instructions for using the dashboard, connecting Google Sheets, and setting up search queries.
+The **AI Data Extraction Dashboard** is designed to be user-friendly and intuitive. Below are the step-by-step instructions for using the dashboard, connecting Google Sheets, and setting up search queries.
 
-### 1. *Running the Dashboard*
+### 1. **Running the Dashboard**
 
 Once you’ve installed all dependencies and set up the project (refer to the Setup Instructions above), you can start the dashboard by running the following command:
 
-bash
+```bash
 streamlit run app.py
-
+```
 This will open the dashboard in your default web browser.
 
 ## Setup & Installation
-bash
+```bash
 # Clone the repository
 git clone https://github.com/yourusername/ai-dashboard.git
 
 # Install dependencies
 npm install
-
+```
 
 ## Connecting Google Sheets
 
@@ -96,8 +96,8 @@ npm install
 2. Set up Google Sheets API credentials:
    - Visit the Google Cloud Console
    - Create a new project and enable Google Sheets API
-   - Download credentials.json
-3. Place credentials.json in project root
+   - Download `credentials.json`
+3. Place `credentials.json` in project root
 4. Enter Google Sheets URL in dashboard
 5. Authorize API access when prompted
 
@@ -132,7 +132,7 @@ Click the "Search" button, and the dashboard will retrieve data using SerpAPI.
 Once the search is complete, the results will be processed by the AI model (Groq), which will extract relevant insights and display them in a structured format.
 
 ### Example Queries
-- "Identify the Country in which the Names called Ferrell LLC, Mckinney, Riley and Day, Hester Ltd , Holder-Sellers , Mayer Group are Located"
+- `"Identify the Country in which the Names called Ferrell LLC, Mckinney, Riley and Day, Hester Ltd , Holder-Sellers , Mayer Group are Located"`
 
 ### Supported Formats
 - CSV
@@ -142,19 +142,19 @@ Once the search is complete, the results will be processed by the AI model (Groq
 ### Step 1: Create the .env file
 In your project’s root directory (the same level as your app.py), create a new file called .env.
 Inside the .env file, store your API keys and other necessary environment variables in the following format:
-bash
+```bash
 SERPAPI_KEY=
 GOOGLE_CREDS_PATH=
 GROQ_API_KEY=
-
+```
 ### Step 2: Access the variables in your Python code
 To access these environment variables in your Python code, you’ll need to use the python-dotenv package, which allows Python to load environment variables from the .env file.
 Install python-dotenv: Add python-dotenv to your requirements.txt file, or install it directly via pip:
-bash
+```bash
 pip install python-dotenv
-
+```
 Load the environment variables (Testing) in your app.py or other Python files where you need the keys:
-bash
+```bash
 # Import the required libraries
 from dotenv import load_dotenv
 import os
@@ -169,7 +169,7 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 # Use these variables in your code
 print(SERPAPI_KEY, GOOGLE_CREDS_PATH, GROQ_API_KEY)
-
+```
 
 ### Optional Features
 - Real-time data filtering
@@ -179,10 +179,10 @@ print(SERPAPI_KEY, GOOGLE_CREDS_PATH, GROQ_API_KEY)
   
 ## 🚀 Features
 
-- *Multi-Source Data Input*: CSV & Google Sheets integration
-- *AI-Powered Search*: Automated web scraping with SerpAPI
-- *Smart Processing*: LLM-based data extraction via Groq
-- *Export Ready*: Download results or sync with Google Sheets
+- **Multi-Source Data Input**: CSV & Google Sheets integration
+- **AI-Powered Search**: Automated web scraping with SerpAPI
+- **Smart Processing**: LLM-based data extraction via Groq
+- **Export Ready**: Download results or sync with Google Sheets
 
 ## Troubleshooting
 
@@ -204,7 +204,7 @@ print(SERPAPI_KEY, GOOGLE_CREDS_PATH, GROQ_API_KEY)
 
 ## ⚡ Quick Start
 
-bash
+```bash
 # Clone repo
 git clone https://github.com/yourusername/ai-data-extraction-dashboard.git
 
@@ -213,7 +213,7 @@ pip install -r requirements.txt
 
 # Run dashboard
 streamlit run app.py
-
+```
 ## 🎥 Demo Video
 
 Watch the demo video on Loom:
