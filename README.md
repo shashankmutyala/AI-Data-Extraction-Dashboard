@@ -3,7 +3,8 @@
 # AI Data Extraction Dashboard
 
 <p align="center">
-  <img src=""/>
+  <img src="![image](https://github.com/user-attachments/assets/49ac5ca2-4c1a-4dfa-a026-52d94fee7848)
+"/>
 </p>
 
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io/)
